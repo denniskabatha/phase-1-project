@@ -5,7 +5,7 @@
 fetches images from an external API and displays them to the user.
 
 # Features
-. Generates random images of dogs with a click of a batton.
+. Generates random images of dogs with a click of a button.
 . Provides a waid variety of dog breeds
 . Simple and intuitive user interface.
 
@@ -15,4 +15,7 @@ fetches images from an external API and displays them to the user.
 . javascript
 
 # How to Use
-1. 
+1. Clone or download the repository to your local machine.
+2. Open the 'index.html' file in your web browser.
+3. Click the 'Generate dog image' button to fetch and display a random dog image.
+4. Repeat step 3 to generate more images.
