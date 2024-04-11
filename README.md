@@ -1,4 +1,4 @@
-# DOG IMAGE GENERATOR APP
+# ALLDOGS
 
 # Overview
 -The dog image generator is a simple web application that allows users to generate random images of dogs.It
