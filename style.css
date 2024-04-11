@@ -1,9 +1,11 @@
+
 nav {
-    background-color: #333;
+    background-color: #2e2130;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 3px;
 }
 nav a {
     color: white;
@@ -16,21 +18,22 @@ nav a:hover {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: azure;
+    color: rgb(235, 52, 158);
     text-transform: uppercase;
 }
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Roboto' sans-serif;
 }
 /* form container*/
 .home{
     width: 100%;
     height: 900px;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 20px;
     padding-bottom: 15px;
-    background-image: url('Smile\ emoticon\ logo\ _\ Vetor\ Premium.jpeg');
+    background-image: url('best.jpeg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -50,6 +53,108 @@ form{
     border-radius: 10px;
     margin-top: 25px ;
     align-items: center;
-    margin-right: 40px;
+    justify-content: center;
+    display: flex;
     
+}
+.home #image-container{
+    margin-left: 165px;
+    margin-top: 55px;
+}
+*/about styling*/
+#about{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin: 0;
+}
+.about-container h1{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color:rgb(235, 52, 158) ;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.about-container{
+    background-color: black;
+    margin: 0;
+    
+}
+.about-container p{
+    color: bisque;
+    margin-left: 10px;
+}
+.about-container p span{
+    color:rgb(235, 52, 158) ;
+}
+.about-image img{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 190px;
+    border-radius: 15px;
+}
+.image-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.image-container-1 img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.card h2{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color:rgb(235, 52, 158) ;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.card{
+    background-color: black;
+}
+
+.contacts h3{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color:rgb(235, 52, 158) ;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.contacts {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, san-serif;
+    line-height: 1.6;
+}
+.contacts ul{
+    list-style: none;
+    padding: 0;
+}
+.contacts li {
+    margin-bottom: 10px;
+    color: #666;
+
+}
+.contacts li a {
+    color: #007bff;
+    text-decoration: none;
+}
+.contacts li a:hover{
+    text-decoration: underline;
 }
