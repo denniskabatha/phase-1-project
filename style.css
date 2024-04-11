@@ -98,6 +98,7 @@ form{
     margin-left: 190px;
     border-radius: 15px;
 }
+*/gallery styling*/
 .image-container-1{
     display: flex;
     flex-wrap: wrap;
@@ -121,7 +122,7 @@ form{
 .card{
     background-color: black;
 }
-
+*/ contacts styling*/
 .contacts h3{
     align-content: center;
     justify-content: center;
