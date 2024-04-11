@@ -29,3 +29,5 @@ const breedForm = document.getElementById('breedForm');
             imageContainer.innerHTML = '';
             imageContainer.appendChild(imageElement);
         }
+
+        
