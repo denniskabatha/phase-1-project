@@ -1,6 +1,7 @@
+//add variable for the form
 const breedForm = document.getElementById('breedForm');
         const imageContainer = document.getElementById('image-container');
-
+//add event listener for the input
         breedForm.addEventListener('submit', async (event) => {
             event.preventDefault();
 
